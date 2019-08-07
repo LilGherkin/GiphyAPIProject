@@ -19,17 +19,13 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-10" id="Buttons">
-      <button data-creature="Unicorn">Unicorn</button>
-      <button data-creature="Gorgon">Gorgon</button>
-      <button data-creature="Cyclops">Cyclops</button>
-      <button data-creature="Selkie">Selkie</button>
-      <button data-creature="Wendigo">Wendigo</button>
+    <div class="col-10" id="ButtonHolder">
+      <button class="btn btn-danger" data-creature="Gorgon">Gorgon</button>
     </div>  
     <div class="col-2" id="Searchbar">
-      <form id="movie-form">
-          <label for="GifSearch">Search For GIFs</label>
-          <input type="text" id="GifInput"><br>
+      <form id="CreatureSearch">
+          <label for="GifSearch">Make A Monster</label>
+          <input type="text" id="MonsterInput"><br>
               
           <!-- Button triggers new movie to be added -->
           <input id="AddCreature" type="submit" value="GIFs!">
@@ -40,7 +36,7 @@
 
 
 <div class="container" id="GifsHere">
-  
+
 </div>
 </body>
 <script src="assets/javascript/script.js"></script>
