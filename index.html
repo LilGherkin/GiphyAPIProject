@@ -8,15 +8,29 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/script.js"></script>
   <link rel="sytlesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+<div class="jumbotron">Mytical Creature Gif Finder</div>
 <div id="buttons">
+  <button data-creature="Unicorn">Unicorn</button>
+  <button data-creature="Gorgon">Gorgon</button>
+  <button data-creature="Cyclops">Cyclops</button>
+  <button data-creature="Selkie">Selkie</button>
+  <button data-creature="Wendigo">Wendigo</button>
 </div>
 <div id="GifsHere">
 </div>
 <div id="SearchBar">
+    <form id="movie-form">
+        <label for="movie-input">Search For GIFs</label>
+        <input type="text" id="movie-input"><br>
+          
+        <!-- Button triggers new movie to be added -->
+        <input id="add-movie" type="submit" value="GIFs!">
+    </form>
 </div>
 
 </body>
